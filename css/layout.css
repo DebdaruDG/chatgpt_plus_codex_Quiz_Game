@@ -1,0 +1,21 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: var(--spacing);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}

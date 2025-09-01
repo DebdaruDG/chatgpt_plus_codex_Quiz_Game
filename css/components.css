@@ -1,0 +1,46 @@
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  background: var(--color-primary);
+  color: #fff;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.card {
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  padding: var(--spacing);
+  margin-bottom: var(--spacing);
+}
+
+.options {
+  list-style: none;
+  margin-top: var(--spacing);
+}
+
+.options li + li {
+  margin-top: 0.5rem;
+}
+
+.option-btn {
+  width: 100%;
+  text-align: left;
+  background: var(--color-surface);
+  border: 1px solid var(--color-primary);
+  color: var(--color-text);
+  padding: 0.5rem;
+}
+
+.option-btn.selected {
+  background: var(--color-primary);
+}
+
+.summary-item {
+  margin-bottom: var(--spacing);
+}
